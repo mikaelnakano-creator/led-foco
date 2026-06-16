@@ -38,6 +38,9 @@ Os botões de WhatsApp disparam dataLayer.push com:
 - lead_whatsapp_led_foco_geral
 - lead_whatsapp_led_foco_venda
 - lead_whatsapp_led_foco_locacao
+- lead_whatsapp_led_foco_residencial
+- lead_whatsapp_led_foco_venda_comercial
+- lead_whatsapp_led_foco_venda_residencial
 
 Cada clique também envia:
 - lead_intent
@@ -50,6 +53,7 @@ Home:
 - assets/img/home-venda.jpg: painel instalado em empresa.
 - assets/img/home-locacao.jpg: painel ou totem em evento.
 - assets/img/retail-media.jpg: supermercado, varejo, ponto de venda ou aplicação de mídia.
+- assets/img/residencial-led.jpg: painel em área gourmet, sala, fachada residencial, condomínio ou ambiente de lazer.
 - assets/img/case-01.jpg: melhor case geral.
 - assets/img/case-02.jpg: fachada.
 - assets/img/case-03.jpg: evento.
@@ -65,3 +69,17 @@ Locação:
 LOGO:
 Por enquanto a marca está em texto com símbolo LF.
 Quando tiver o logo, substitua o bloco .brand por <img src="/assets/img/logo-led-foco.png">.
+
+ALTERAÇÕES V4:
+- Home sem seção explicativa extensa de Retail Media; Retail Media agora tem página própria: retail-media.html.
+- Menu sem item Contato.
+- Página de Locação inclui: painéis de LED, totens, cavaletes digitais, TVs e simulador de corrida.
+- Botão flutuante usa ícone de WhatsApp em SVG.
+- Imagens adicionais:
+  - assets/img/locacao-cavalete-digital.jpg
+  - assets/img/locacao-simulador-corrida.jpg
+  - assets/img/locacao-tvs.jpg
+  - assets/img/retail-media-hero.jpg
+  - assets/img/retail-media-case.jpg
+- Evento adicional:
+  - lead_whatsapp_led_foco_retail_media

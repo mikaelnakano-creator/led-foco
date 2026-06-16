@@ -608,3 +608,24 @@ h2{
   .btn{width:100%}
   .footer-bottom{display:block}
 }
+
+
+.residential-section{
+  background:linear-gradient(180deg,#f3f7f4 0%,#ffffff 100%);
+}
+.residential-visual{
+  padding:0;
+  overflow:hidden;
+  min-height:420px;
+}
+.residential-visual .photo-placeholder{
+  min-height:420px;
+}
+
+.portfolio-strip.compact .work:nth-child(n){
+  grid-column:span 4;
+  min-height:430px;
+}
+@media(max-width:1050px){
+  .portfolio-strip.compact .work:nth-child(n){grid-column:auto}
+}
