@@ -70,7 +70,7 @@ LOGO:
 Por enquanto a marca está em texto com símbolo LF.
 Quando tiver o logo, substitua o bloco .brand por <img src="/assets/img/logo-led-foco.png">.
 
-ALTERAÇÕES V4:
+ALTERAÇÕES V-4:
 - Home sem seção explicativa extensa de Retail Media; Retail Media agora tem página própria: retail-media.html.
 - Menu sem item Contato.
 - Página de Locação inclui: painéis de LED, totens, cavaletes digitais, TVs e simulador de corrida.
