@@ -631,7 +631,11 @@ h2{
 }
 
 .brand-logo {
-  height: 54px;
+  height: 64px;
   width: auto;
   display: block;
+}
+
+.footer-logo {
+  height: 52px;
 }
