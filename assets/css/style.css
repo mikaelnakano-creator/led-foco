@@ -629,3 +629,9 @@ h2{
 @media(max-width:1050px){
   .portfolio-strip.compact .work:nth-child(n){grid-column:auto}
 }
+
+.brand-logo {
+  height: 54px;
+  width: auto;
+  display: block;
+}
