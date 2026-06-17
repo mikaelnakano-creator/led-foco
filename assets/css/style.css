@@ -780,4 +780,23 @@ h2{
     width: auto !important;
     max-width: max-content !important;
   }
+  
+/* AJUSTE MOBILE - CARROSSEL DE PALAVRAS */
+
+@media (max-width: 768px) {
+  .marquee-inner {
+    gap: 10px !important;
+    padding: 18px 0 !important;
+  }
+
+  .marquee-inner span {
+    font-size: 2.4rem !important;
+    letter-spacing: -0.07em !important;
+    word-spacing: -6px !important;
+  }
+
+  .marquee-inner i {
+    margin: 0 8px !important;
+  }
 }
+
