@@ -292,6 +292,15 @@ h2{
   flex-direction:column;
   justify-content:flex-start;
 }
+.service-large,
+.service-side{
+  min-height:auto;
+}
+
+.service-side .service-copy,
+.service-large .service-copy{
+  min-height:auto;
+}
 .service-copy h3{
   margin:0;
   font-size:clamp(2.1rem,4vw,4.1rem);
