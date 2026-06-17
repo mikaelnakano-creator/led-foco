@@ -648,3 +648,67 @@ h2{
 .footer-logo {
   height: 62px;
 }
+/* AJUSTE FINO — SEÇÃO SOLUÇÕES HOME */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.service-large {
+  min-height: 480px !important;
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  overflow: hidden;
+}
+
+.service-side {
+  min-height: 480px !important;
+  display: grid;
+  grid-template-rows: 260px 1fr;
+  overflow: hidden;
+}
+
+.service-copy {
+  padding: 42px 40px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 22px !important;
+}
+
+.service-copy > div {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 18px !important;
+}
+
+.service-copy h3 {
+  margin: 0 !important;
+}
+
+.service-copy p {
+  margin: 0 !important;
+}
+
+.service-copy .mini-list {
+  margin: 6px 0 0 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+}
+
+.service-copy .btn {
+  margin-top: 8px !important;
+  align-self: flex-start !important;
+}
+
+.service-large img,
+.service-side img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
