@@ -648,132 +648,62 @@ h2{
 .footer-logo {
   height: 62px;
 }
-/* AJUSTE FINO — SEÇÃO SOLUÇÕES HOME */
+/* CORREÇÃO REAL - SEÇÃO SOLUÇÕES HOME */
 
-.services-grid {
-  display: grid;
-  grid-template-columns: 1.35fr 0.85fr;
-  gap: 22px;
-  align-items: stretch;
+.service-large,
+.service-side {
+  background: #ffffff !important;
+  color: #18211c !important;
+  min-height: 0 !important;
+  height: 520px !important;
+  overflow: hidden !important;
 }
 
 .service-large {
-  min-height: 480px !important;
-  display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  overflow: hidden;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
 }
 
 .service-side {
-  min-height: 480px !important;
-  display: grid;
-  grid-template-rows: 260px 1fr;
-  overflow: hidden;
+  display: grid !important;
+  grid-template-rows: 260px 260px !important;
 }
 
 .service-copy {
-  padding: 42px 40px !important;
+  color: #18211c !important;
+  padding: 36px 38px !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
-  gap: 22px !important;
-}
-
-.service-copy > div {
-  display: flex !important;
-  flex-direction: column !important;
   gap: 18px !important;
 }
 
 .service-copy h3 {
-  margin: 0 !important;
+  color: #07110b !important;
+  font-size: 2.4rem !important;
+  line-height: .95 !important;
+  letter-spacing: -0.06em !important;
+  margin: 0 0 18px 0 !important;
+  display: block !important;
 }
 
 .service-copy p {
+  color: #506058 !important;
   margin: 0 !important;
 }
 
+.service-copy .sup {
+  margin: 0 0 18px 0 !important;
+}
+
 .service-copy .mini-list {
-  margin: 6px 0 0 0 !important;
-  display: flex !important;
-  flex-direction: column !important;
+  margin: 18px 0 0 0 !important;
   gap: 10px !important;
 }
 
 .service-copy .btn {
   margin-top: 8px !important;
   align-self: flex-start !important;
-}
-
-.service-large img,
-.service-side img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  display: block !important;
-}
-/* CORREÇÃO DEFINITIVA - SEÇÃO SOLUÇÕES HOME */
-
-.section.dark {
-  padding-top: 70px !important;
-  padding-bottom: 70px !important;
-}
-
-.services-grid {
-  display: grid !important;
-  grid-template-columns: 1.25fr 0.75fr !important;
-  gap: 22px !important;
-  align-items: start !important;
-}
-
-.service-large {
-  min-height: 0 !important;
-  height: 520px !important;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  overflow: hidden !important;
-}
-
-.service-side {
-  min-height: 0 !important;
-  height: 520px !important;
-  display: grid !important;
-  grid-template-rows: 260px 260px !important;
-  overflow: hidden !important;
-}
-
-.service-copy {
-  padding: 34px 36px !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
-  gap: 18px !important;
-}
-
-.service-copy > div {
-  display: block !important;
-}
-
-.service-copy .sup {
-  margin-bottom: 22px !important;
-}
-
-.service-copy h3 {
-  margin: 0 0 24px 0 !important;
-}
-
-.service-copy p {
-  margin: 0 0 22px 0 !important;
-}
-
-.mini-list {
-  margin: 0 0 22px 0 !important;
-  gap: 8px !important;
-}
-
-.service-copy .btn {
-  margin-top: 0 !important;
 }
 
 .service-large img,
