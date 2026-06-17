@@ -290,7 +290,7 @@ h2{
   padding:44px;
   display:flex;
   flex-direction:column;
-  justify-content:space-between;
+  justify-content:flex-start;
 }
 .service-copy h3{
   margin:0;
