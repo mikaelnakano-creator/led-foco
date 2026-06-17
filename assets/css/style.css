@@ -712,3 +712,74 @@ h2{
   object-fit: cover !important;
   display: block !important;
 }
+/* CORREÇÃO DEFINITIVA - SEÇÃO SOLUÇÕES HOME */
+
+.section.dark {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+
+.services-grid {
+  display: grid !important;
+  grid-template-columns: 1.25fr 0.75fr !important;
+  gap: 22px !important;
+  align-items: start !important;
+}
+
+.service-large {
+  min-height: 0 !important;
+  height: 520px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  overflow: hidden !important;
+}
+
+.service-side {
+  min-height: 0 !important;
+  height: 520px !important;
+  display: grid !important;
+  grid-template-rows: 260px 260px !important;
+  overflow: hidden !important;
+}
+
+.service-copy {
+  padding: 34px 36px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  gap: 18px !important;
+}
+
+.service-copy > div {
+  display: block !important;
+}
+
+.service-copy .sup {
+  margin-bottom: 22px !important;
+}
+
+.service-copy h3 {
+  margin: 0 0 24px 0 !important;
+}
+
+.service-copy p {
+  margin: 0 0 22px 0 !important;
+}
+
+.mini-list {
+  margin: 0 0 22px 0 !important;
+  gap: 8px !important;
+}
+
+.service-copy .btn {
+  margin-top: 0 !important;
+}
+
+.service-large img,
+.service-side img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
