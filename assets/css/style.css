@@ -799,10 +799,35 @@ h2{
     margin: 0 5px !important;
   }
 }
-/* HOVER MAIS ELEGANTE */
+/* CORREÇÃO DEFINITIVA - BOTÃO CONHECER SOLUÇÕES HOME */
 
-.hero-actions .btn.secondary:hover {
+.hero .hero-actions a,
+.hero .hero-actions a:visited,
+.hero .hero-actions a:hover,
+.hero .hero-actions a:focus,
+.hero .hero-actions a:active {
+  text-decoration: none !important;
+}
+
+/* Botão secundário da home */
+.hero .hero-actions a:nth-child(2),
+.hero .hero-actions a:nth-child(2):visited {
+  background: #ffffff !important;
+  color: #07110b !important;
+  border-color: #ffffff !important;
+}
+
+/* Hover do botão secundário */
+.hero .hero-actions a:nth-child(2):hover,
+.hero .hero-actions a:nth-child(2):focus,
+.hero .hero-actions a:nth-child(2):active {
   background: #e9eee9 !important;
   color: #07110b !important;
   border-color: #e9eee9 !important;
+}
+
+/* Garante que qualquer texto interno também fique escuro */
+.hero .hero-actions a:nth-child(2) *,
+.hero .hero-actions a:nth-child(2):hover * {
+  color: #07110b !important;
 }
