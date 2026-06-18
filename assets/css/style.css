@@ -799,4 +799,10 @@ h2{
     margin: 0 5px !important;
   }
 }
+/* HOVER MAIS ELEGANTE */
 
+.hero-actions .btn.secondary:hover {
+  background: #e9eee9 !important;
+  color: #07110b !important;
+  border-color: #e9eee9 !important;
+}
