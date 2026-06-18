@@ -831,3 +831,6 @@ h2{
 .hero .hero-actions a:nth-child(2):hover * {
   color: #07110b !important;
 }
+body {
+  border: 10px solid red !important;
+}
