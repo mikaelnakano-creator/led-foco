@@ -1,0 +1,110 @@
+/* =========================================================
+   CORREÇÃO MOBILE — TÍTULO SOBREPOSTO À IMAGEM
+   Resolve cards de soluções/serviços com texto invadindo a foto
+   ========================================================= */
+
+@media (max-width: 768px) {
+  /* Garante que o card seja empilhado: imagem primeiro, texto depois */
+  .service-large,
+  .service-side,
+  .service-card,
+  .services-grid .work {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    border-radius: 32px !important;
+    background: #ffffff !important;
+  }
+
+  /* Imagem com altura definida, sem deixar o texto entrar por cima */
+  .service-large > img,
+  .service-side > img,
+  .service-card > img,
+  .service-large .photo-placeholder,
+  .service-side .photo-placeholder,
+  .service-card .photo-placeholder {
+    position: relative !important;
+    z-index: 1 !important;
+    width: 100% !important;
+    height: 260px !important;
+    min-height: 260px !important;
+    max-height: 260px !important;
+    object-fit: cover !important;
+    display: block !important;
+    flex: 0 0 auto !important;
+  }
+
+  .service-large .photo-placeholder img,
+  .service-side .photo-placeholder img,
+  .service-card .photo-placeholder img {
+    width: 100% !important;
+    height: 260px !important;
+    min-height: 260px !important;
+    max-height: 260px !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  /* Área branca do texto sempre abaixo da imagem */
+  .service-copy,
+  .service-large .service-copy,
+  .service-side .service-copy,
+  .service-card .service-copy {
+    position: relative !important;
+    z-index: 2 !important;
+    margin: 0 !important;
+    margin-top: 0 !important;
+    transform: none !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    background: #ffffff !important;
+    color: #18211c !important;
+    padding: 28px 24px 30px !important;
+    display: block !important;
+    min-height: 0 !important;
+  }
+
+  /* Título sem margem negativa e com tamanho seguro para mobile */
+  .service-copy h2,
+  .service-copy h3,
+  .service-large .service-copy h2,
+  .service-large .service-copy h3,
+  .service-side .service-copy h2,
+  .service-side .service-copy h3,
+  .service-card .service-copy h2,
+  .service-card .service-copy h3 {
+    position: static !important;
+    transform: none !important;
+    margin: 0 0 14px 0 !important;
+    color: #050806 !important;
+    font-size: 2rem !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.055em !important;
+    max-width: 100% !important;
+  }
+
+  .service-copy p,
+  .service-large .service-copy p,
+  .service-side .service-copy p,
+  .service-card .service-copy p {
+    margin: 0 0 18px 0 !important;
+    color: #66736b !important;
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Botão dentro do card */
+  .service-copy .btn,
+  .service-large .service-copy .btn,
+  .service-side .service-copy .btn,
+  .service-card .service-copy .btn {
+    width: auto !important;
+    max-width: max-content !important;
+    margin-top: 6px !important;
+  }
+}
