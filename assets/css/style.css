@@ -1561,3 +1561,37 @@ h2 {
     font-size: 2.2rem;
   }
 }
+/* Correção — botão branco em fundo escuro */
+.hero .hero-actions .btn-line,
+.hero .hero-actions .btn-line:visited,
+.hero-shell .hero-actions .btn-line,
+.hero-shell .hero-actions .btn-line:visited,
+.hero-copy .hero-actions .btn-line,
+.hero-copy .hero-actions .btn-line:visited {
+  background: #ffffff !important;
+  color: #050806 !important;
+  border-color: #ffffff !important;
+  -webkit-text-fill-color: #050806 !important;
+}
+
+.hero .hero-actions .btn-line:hover,
+.hero .hero-actions .btn-line:focus,
+.hero .hero-actions .btn-line:active,
+.hero-shell .hero-actions .btn-line:hover,
+.hero-shell .hero-actions .btn-line:focus,
+.hero-shell .hero-actions .btn-line:active,
+.hero-copy .hero-actions .btn-line:hover,
+.hero-copy .hero-actions .btn-line:focus,
+.hero-copy .hero-actions .btn-line:active {
+  background: #e9eee9 !important;
+  color: #050806 !important;
+  border-color: #e9eee9 !important;
+  -webkit-text-fill-color: #050806 !important;
+}
+
+.hero .hero-actions .btn-line *,
+.hero-shell .hero-actions .btn-line *,
+.hero-copy .hero-actions .btn-line * {
+  color: #050806 !important;
+  -webkit-text-fill-color: #050806 !important;
+}
