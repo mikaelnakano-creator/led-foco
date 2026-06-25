@@ -834,13 +834,38 @@ h2{
 body {
   border: 10px solid red !important;
 }
-.dark .statement-panel:not(.black) {
+/* Correção: cards brancos dentro de seções escuras */
+.section.dark .statement-panel:not(.black),
+.section.dark .matrix-item,
+.section.dark .process-item {
   background: #ffffff;
-  color: #101914;
+  color: #111814;
 }
 
-.dark .statement-panel:not(.black) h2,
-.dark .statement-panel:not(.black) h3,
-.dark .statement-panel:not(.black) p {
-  color: #101914;
+/* Títulos dentro de cards brancos em seções escuras */
+.section.dark .statement-panel:not(.black) h2,
+.section.dark .statement-panel:not(.black) h3,
+.section.dark .matrix-item h2,
+.section.dark .matrix-item h3,
+.section.dark .process-item h2,
+.section.dark .process-item h3 {
+  color: #111814 !important;
+}
+
+/* Textos dentro de cards brancos em seções escuras */
+.section.dark .statement-panel:not(.black) p,
+.section.dark .matrix-item p,
+.section.dark .process-item p {
+  color: #53635b !important;
+}
+
+/* Eyebrow/sup dentro de cards brancos */
+.section.dark .statement-panel:not(.black) .eyebrow,
+.section.dark .matrix-item .eyebrow,
+.section.dark .matrix-item .sup,
+.section.dark .process-item small {
+  color: #0f8f43 !important;
+}
+  .section.dark .statement-panel:not(.black) h2 {
+  color: #111814 !important;
 }
