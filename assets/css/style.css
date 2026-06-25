@@ -834,3 +834,13 @@ h2{
 body {
   border: 10px solid red !important;
 }
+.dark .statement-panel:not(.black) {
+  background: #ffffff;
+  color: #101914;
+}
+
+.dark .statement-panel:not(.black) h2,
+.dark .statement-panel:not(.black) h3,
+.dark .statement-panel:not(.black) p {
+  color: #101914;
+}
