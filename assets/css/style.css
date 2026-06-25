@@ -1337,3 +1337,227 @@ h2 {
     padding: 22px;
   }
 }
+
+
+/* =========================================================
+   20. AJUSTE GLOBAL DE ESPAÇAMENTO — VERSÃO MAIS COMPACTA
+   ========================================================= */
+
+/* Reduz o respiro vertical exagerado entre seções */
+.section {
+  padding: 76px 0;
+}
+
+.page-hero {
+  padding: 58px 0 34px;
+}
+
+/* Reduz altura do bloco hero das páginas internas */
+.page-heading {
+  min-height: 500px;
+}
+
+.page-heading-copy {
+  padding: 46px;
+}
+
+/* Títulos de seção menos espaçados */
+.section-title {
+  gap: 30px;
+  margin-bottom: 34px;
+}
+
+/* Cards de matriz mais compactos */
+.matrix {
+  gap: 18px;
+}
+
+.matrix-item {
+  min-height: 220px;
+  padding: 28px;
+  justify-content: flex-start;
+  gap: 44px;
+}
+
+.matrix-item h3 {
+  font-size: 1.72rem;
+  line-height: 1.03;
+}
+
+.matrix-item p {
+  margin-top: 14px;
+}
+
+/* Cards de processo mais baixos */
+.process-line {
+  border-radius: 30px;
+}
+
+.process-item {
+  min-height: 220px;
+  padding: 28px;
+}
+
+.process-item h3 {
+  font-size: 1.45rem;
+}
+
+/* Statement panels mais compactos */
+.statement {
+  gap: 22px;
+}
+
+.statement-panel {
+  padding: 34px;
+  border-radius: 30px;
+}
+
+.statement-panel h3 {
+  font-size: 1.85rem;
+}
+
+/* Imagens grandes com menos altura */
+.big-image-section {
+  min-height: 500px;
+  border-radius: 36px;
+}
+
+.big-image-section > .photo-placeholder {
+  min-height: 500px;
+}
+
+.overlay-note {
+  left: 28px;
+  bottom: 28px;
+  padding: 22px;
+  border-radius: 22px;
+}
+
+.overlay-note h3 {
+  font-size: 1.65rem;
+}
+
+/* Portfólio e blocos visuais mais baixos */
+.work {
+  min-height: 300px;
+}
+
+.work:nth-child(1) {
+  min-height: 420px;
+}
+
+.portfolio-strip.compact .work:nth-child(n) {
+  min-height: 330px;
+}
+
+/* CTA final menos distante e menos alto */
+.cta-editorial {
+  padding: 56px;
+  transform: translateY(-36px);
+  margin-bottom: -36px;
+  border-radius: 36px;
+}
+
+/* FAQ mais compacto */
+.faq-list details {
+  padding: 18px 22px;
+}
+
+/* Reduz um pouco os títulos gigantes em páginas internas */
+.page-heading h1 {
+  font-size: clamp(2.8rem, 5.2vw, 5.8rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 4.35rem);
+}
+
+/* =========================================================
+   21. COMPACTO RESPONSIVO
+   ========================================================= */
+
+@media (max-width: 1050px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .page-hero {
+    padding: 42px 0 28px;
+  }
+
+  .page-heading {
+    min-height: auto;
+  }
+
+  .page-heading-copy {
+    padding: 38px;
+  }
+
+  .matrix-item,
+  .process-item,
+  .statement-panel {
+    min-height: auto;
+  }
+
+  .portfolio-strip.compact .work:nth-child(n),
+  .work,
+  .work:nth-child(n) {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 52px 0;
+  }
+
+  .page-hero {
+    padding: 28px 0 22px;
+  }
+
+  .page-heading-copy {
+    padding: 28px;
+  }
+
+  .section-title {
+    margin-bottom: 28px;
+  }
+
+  .matrix {
+    gap: 14px;
+  }
+
+  .matrix-item {
+    padding: 24px;
+    gap: 28px;
+    min-height: auto;
+  }
+
+  .matrix-item h3 {
+    font-size: 1.55rem;
+  }
+
+  .statement-panel,
+  .process-item {
+    padding: 26px;
+  }
+
+  .big-image-section,
+  .big-image-section > .photo-placeholder {
+    min-height: 360px;
+  }
+
+  .cta-editorial {
+    padding: 34px 28px;
+    transform: none;
+    margin-bottom: 0;
+  }
+
+  .page-heading h1 {
+    font-size: 2.85rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}
