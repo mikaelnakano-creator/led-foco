@@ -1,27 +1,25 @@
-# LED Foco — Páginas com mobile otimizado
+# LED Foco — Mobile completo com textos curtos
 
-Arquivos gerados:
+Esta versão corrige a versão mobile anterior, que ficou resumida demais.
+
+Agora:
+- Desktop continua completo.
+- Mobile mantém as principais fotos e seções.
+- Os textos do mobile foram encurtados para facilitar leitura e conversão.
+- O botão fixo no rodapé permanece no mobile.
+
+Arquivos:
 - venda.html
 - locacao.html
 - retail-media.html
-- assets/css/style-mobile-otimizado.css
-- assets/js/main-mobile-otimizado.js
+- assets/css/style-mobile-completo.css
+- assets/js/main-mobile-completo.js
 
-## Como funciona
+No mobile:
+- .desktop-main fica oculto.
+- .mobile-main fica visível.
 
-As páginas mantêm a versão desktop completa e exibem uma versão mobile resumida automaticamente em telas até 768px.
-
-No desktop:
-- .desktop-main fica visível
-- .mobile-main fica oculto
-
-No celular:
-- .desktop-main fica oculto
-- .mobile-main fica visível
-
-## Importante
-
-As imagens precisam existir nos caminhos:
+Imagens necessárias:
 - /assets/img/venda-hero.jpg
 - /assets/img/locacao-hero.jpg
 - /assets/img/locacao-cavalete-digital.jpg
@@ -30,8 +28,3 @@ As imagens precisam existir nos caminhos:
 - /assets/img/locacao-evento.jpg
 - /assets/img/retail-media-hero.jpg
 - /assets/img/retail-media-case.jpg
-
-O CSS novo está separado como:
-assets/css/style-mobile-otimizado.css
-
-Se quiser substituir o CSS principal do site, renomeie para style.css e atualize os links no HTML.
